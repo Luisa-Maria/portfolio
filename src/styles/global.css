@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tape {
+  width: 100%;
+  overflow: hidden;
+  border-top: 1px solid #3922bf;
+  border-bottom: 1px solid #3922bf;
+  padding: 12px 0;
+}
+
+.tape-track {
+  display: flex;
+  width: max-content;
+  animation: scroll 12s linear infinite;
+}
+
+.tape-track span {
+  white-space: nowrap;
+  font-size: 20px;
+  font-weight: 500;
+  padding-right: 40px;
+}
