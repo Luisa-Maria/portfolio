@@ -6,9 +6,18 @@ import Layout from "../layouts/Layout.astro";
 
 <Layout>
   <div class="grid grid-cols-1 gap-24">
-    <div id="home" class="flex justify-center gap-24">
+    <div
+      id="home"
+      class="flex flex-col md:flex-row justify-center items-center gap-10 md:gap-24"
+    >
       <SquarePortrait />
-      <section class="justify-center text-center flex items-center flex-col">
+      <section
+        class="justify-center
+      text-center
+      flex
+      items-center
+      flex-col"
+      >
         <div>
           <h1 class="text-5xl font-semibold">Hola, Soy Luisa.</h1>
           <h1
@@ -36,7 +45,9 @@ import Layout from "../layouts/Layout.astro";
         <h1>SOBRE MI</h1>
       </section>
       <br />
-      <div class="grid grid-cols-2 justify-center gap-2 mt-8 items-center">
+      <div
+        class="flex-col md:grid grid-cols-2 justify-center gap-2 mt-8 items-center"
+      >
         <CirclePortrait />
         <div class="text-lg">
           Ingeniera de sistemas y desarrolladora frontend apasionada por la
@@ -57,7 +68,7 @@ import Layout from "../layouts/Layout.astro";
         <h1>HABILIDADES</h1>
       </section>
       <br />
-      <div class="grid grid-cols-4 justify-center gap-5 mt-4">
+      <div class="flex flex-col md:grid grid-cols-4 justify-center gap-5 mt-4">
         <section>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -216,7 +227,7 @@ import Layout from "../layouts/Layout.astro";
         <h1>EXPERIENCIA</h1>
       </section>
       <br />
-      <div class="grid grid-cols-2 justify-center gap-5 mt-4">
+      <div class="flex-col md:grid grid-cols-2 justify-center gap-5 mt-4">
         <h1>Nov 2021 - UNI2 Microcrédito</h1>
         <div>
           <h1 class="font-medium text-xl">Desarrolladora Frontend</h1>
@@ -236,7 +247,7 @@ import Layout from "../layouts/Layout.astro";
       <section class="justify-center text-center">
         <h1 class="text-5xl">CONTACTO</h1>
         <br />
-        <div class="grid grid-cols-2 justify-center gap-5 m-8">
+        <div class="flex-col md:grid grid-cols-2 justify-center gap-5 m-8">
           <div class="border border-solid rounded-md p-2">
             <section class="justify-between flex">
               <div
